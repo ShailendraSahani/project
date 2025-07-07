@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest Government Job Notifications, Exam Results, Admit Cards, and Answer Keys - Your Complete Sarkari Results Portal">
+    <meta name="keywords" content="sarkari result, government jobs, exam results, admit card, answer key, latest jobs">
+    <title>Sarkari Results - Latest Government Jobs & Exam Results 2024</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div id="loading" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Sarkari Results</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#jobs" class="nav-link">Latest Jobs</a>
+                    <a href="#results" class="nav-link">Results</a>
+                    <a href="#admit-cards" class="nav-link">Admit Cards</a>
+                    <a href="#answer-keys" class="nav-link">Answer Keys</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Your Gateway to <span class="highlight">Government Jobs</span></h1>
+                    <p class="hero-description">
+                        Get latest government job notifications, exam results, admit cards, and answer keys all in one place. 
+                        Stay updated with the most recent Sarkari job opportunities across India.
+                    </p>
+                    
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <input type="text" id="global-search" placeholder="Search jobs, results, departments..." class="search-input">
+                        <button class="search-btn" onclick="performGlobalSearch()">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="stat-number" id="total-jobs">250+</span>
+                            <span class="stat-label">Active Jobs</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span class="stat-number" id="total-results">180+</span>
+                            <span class="stat-label">Results Published</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-id-card"></i>
+                            <span class="stat-number" id="total-admit-cards">120+</span>
+                            <span class="stat-label">Admit Cards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Updates -->
+        <section class="latest-updates">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-newspaper"></i>
+                    Latest Updates
+                </h2>
+                <div class="updates-ticker">
+                    <div class="ticker-content" id="ticker-content">
+                        Loading latest updates...
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Links -->
+        <section class="quick-links">
+            <div class="container">
+                <div class="quick-links-grid">
+                    <div class="quick-link-card" onclick="showSection('jobs')">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Latest Jobs</h3>
+                        <p>Browse newest government job notifications</p>
+                    </div>
+                    <div class="quick-link-card" onclick="showSection('results')">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Exam Results</h3>
+                        <p>Check your examination results</p>
+                    </div>
+                    <div class="quick-link-card" onclick="showSection('admit-cards')">
+                        <i class="fas fa-id-card"></i>
+                        <h3>Admit Cards</h3>
+                        <p>Download your admit cards</p>
+                    </div>
+                    <div class="quick-link-card" onclick="showSection('answer-keys')">
+                        <i class="fas fa-key"></i>
+                        <h3>Answer Keys</h3>
+                        <p>View official answer keys</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jobs Section -->
+        <section id="jobs" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-briefcase"></i>
+                    Latest Government Jobs
+                </h2>
+                
+                <!-- Filters -->
+                <div class="filters">
+                    <select id="category-filter" class="filter-select">
+                        <option value="">All Categories</option>
+                        <option value="Railway">Railway</option>
+                        <option value="Banking">Banking</option>
+                        <option value="SSC">SSC</option>
+                        <option value="UPSC">UPSC</option>
+                        <option value="Police">Police</option>
+                        <option value="Teaching">Teaching</option>
+                        <option value="Defense">Defense</option>
+                    </select>
+                    
+                    <select id="state-filter" class="filter-select">
+                        <option value="">All States</option>
+                        <option value="All India">All India</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    </select>
+                    
+                    <input type="text" id="job-search" placeholder="Search jobs..." class="filter-input">
+                    <button class="filter-btn" onclick="applyJobFilters()">Apply Filters</button>
+                </div>
+                
+                <!-- Jobs List -->
+                <div id="jobs-list" class="content-grid">
+                    <!-- Jobs will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-trophy"></i>
+                    Exam Results
+                </h2>
+                
+                <div class="search-container">
+                    <input type="text" id="result-search" placeholder="Search results..." class="search-input">
+                    <button class="search-btn" onclick="searchResults()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <div id="results-list" class="content-grid">
+                    <!-- Results will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Admit Cards Section -->
+        <section id="admit-cards" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-id-card"></i>
+                    Admit Cards
+                </h2>
+                
+                <div id="admit-cards-list" class="content-grid">
+                    <!-- Admit cards will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Answer Keys Section -->
+        <section id="answer-keys" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-key"></i>
+                    Answer Keys
+                </h2>
+                
+                <div id="answer-keys-list" class="content-grid">
+                    <!-- Answer keys will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-envelope"></i>
+                    Contact Us
+                </h2>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@sarkariresults.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 9876543210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Working Hours</h3>
+                                <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sarkari Results</h3>
+                    <p>Your trusted source for government job notifications and exam updates.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#jobs">Latest Jobs</a></li>
+                        <li><a href="#results">Results</a></li>
+                        <li><a href="#admit-cards">Admit Cards</a></li>
+                        <li><a href="#answer-keys">Answer Keys</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Railway Jobs</a></li>
+                        <li><a href="#">Banking Jobs</a></li>
+                        <li><a href="#">SSC Jobs</a></li>
+                        <li><a href="#">UPSC Jobs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> info@sarkariresults.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New Delhi, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sarkari Results. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

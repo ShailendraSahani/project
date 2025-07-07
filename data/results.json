@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "examName": "SSC CHSL Tier-1 Result 2023",
+    "department": "Staff Selection Commission",
+    "resultDate": "15-01-2024",
+    "status": "New",
+    "description": "SSC has declared the result for CHSL Tier-1 examination conducted in 2023. Qualified candidates can appear for Tier-2 examination.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "10-08-2023 to 25-08-2023",
+    "qualifiedCandidates": 2834756
+  },
+  {
+    "id": 2,
+    "examName": "RRB NTPC CBT-2 Result 2023",
+    "department": "Railway Recruitment Board",
+    "resultDate": "10-01-2024",
+    "status": "New",
+    "description": "Railway Recruitment Board has announced the CBT-2 result for NTPC recruitment. Document verification will be conducted next.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "12-06-2023 to 30-07-2023",
+    "qualifiedCandidates": 45132
+  },
+  {
+    "id": 3,
+    "examName": "IBPS PO Mains Result 2023",
+    "department": "IBPS",
+    "resultDate": "05-01-2024",
+    "status": "Active",
+    "description": "IBPS has declared the Mains examination result for Probationary Officer recruitment. Interview process will begin soon.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "25-11-2023",
+    "qualifiedCandidates": 8942
+  },
+  {
+    "id": 4,
+    "examName": "UPSC Civil Services Final Result 2022",
+    "department": "UPSC",
+    "resultDate": "30-12-2023",
+    "status": "Active",
+    "description": "UPSC has announced the final result of Civil Services Examination 2022. 933 candidates have been recommended for appointment.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "05-06-2022",
+    "qualifiedCandidates": 933
+  },
+  {
+    "id": 5,
+    "examName": "SSC CGL Tier-1 Result 2023",
+    "department": "Staff Selection Commission",
+    "resultDate": "28-12-2023",
+    "status": "Active",
+    "description": "SSC CGL Tier-1 result has been declared. Qualified candidates will appear for Tier-2 examination.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "14-07-2023 to 27-07-2023",
+    "qualifiedCandidates": 2156789
+  },
+  {
+    "id": 6,
+    "examName": "Delhi Police Constable Written Result 2023",
+    "department": "Delhi Police",
+    "resultDate": "22-12-2023",
+    "status": "Active",
+    "description": "Delhi Police has declared the written examination result for Constable recruitment. Physical test will be conducted next.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "27-11-2023 to 15-12-2023",
+    "qualifiedCandidates": 78456
+  },
+  {
+    "id": 7,
+    "examName": "IBPS Clerk Prelims Result 2023",
+    "department": "IBPS",
+    "resultDate": "20-12-2023",
+    "status": "Active",
+    "description": "IBPS Clerk Prelims result has been announced. Qualified candidates can appear for Mains examination.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "26-08-2023 to 04-09-2023",
+    "qualifiedCandidates": 892345
+  },
+  {
+    "id": 8,
+    "examName": "Railway Group D CBT Result 2022",
+    "department": "Railway Recruitment Board",
+    "resultDate": "15-12-2023",
+    "status": "Active",
+    "description": "RRB has declared Group D CBT result. Physical Efficiency Test (PET) will be conducted for qualified candidates.",
+    "resultLink": "#",
+    "downloadLink": "#",
+    "examDate": "17-08-2022 to 25-10-2022",
+    "qualifiedCandidates": 1024567
+  }
+]

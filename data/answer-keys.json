@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "examName": "SSC CHSL Answer Key 2023",
+    "department": "Staff Selection Commission",
+    "publishDate": "20-12-2023",
+    "status": "Active",
+    "description": "Official answer key for SSC CHSL Tier-1 examination 2023. Candidates can raise objections till 05-01-2024.",
+    "downloadLink": "#",
+    "objectionLink": "#",
+    "examDate": "10-08-2023 to 25-08-2023",
+    "objectionDeadline": "05-01-2024",
+    "objectionFee": "₹100 per question"
+  },
+  {
+    "id": 2,
+    "examName": "IBPS Clerk Answer Key 2023",
+    "department": "IBPS",
+    "publishDate": "18-12-2023",
+    "status": "Active",
+    "description": "Official answer key for IBPS Clerk Prelims examination 2023. Download the provisional answer key and raise objections if any.",
+    "downloadLink": "#",
+    "objectionLink": "#",
+    "examDate": "26-08-2023 to 04-09-2023",
+    "objectionDeadline": "28-12-2023",
+    "objectionFee": "₹100 per question"
+  },
+  {
+    "id": 3,
+    "examName": "RRB NTPC CBT-2 Answer Key 2023",
+    "department": "Railway Recruitment Board",
+    "publishDate": "15-12-2023",
+    "status": "Active",
+    "description": "Provisional answer key for RRB NTPC CBT-2 examination has been released. Candidates can download and raise objections.",
+    "downloadLink": "#",
+    "objectionLink": "#",
+    "examDate": "12-06-2023 to 30-07-2023",
+    "objectionDeadline": "25-12-2023",
+    "objectionFee": "₹50 per question"
+  },
+  {
+    "id": 4,
+    "examName": "SSC CGL Answer Key 2023",
+    "department": "Staff Selection Commission",
+    "publishDate": "10-12-2023",
+    "status": "Active",
+    "description": "Official answer key for SSC CGL Tier-1 examination 2023 has been released. Check your responses and raise objections if needed.",
+    "downloadLink": "#",
+    "objectionLink": "#",
+    "examDate": "14-07-2023 to 27-07-2023",
+    "objectionDeadline": "20-12-2023",
+    "objectionFee": "₹100 per question"
+  },
+  {
+    "id": 5,
+    "examName": "Delhi Police Constable Answer Key 2023",
+    "department": "Delhi Police",
+    "publishDate": "05-12-2023",
+    "status": "Active",
+    "description": "Provisional answer key for Delhi Police Constable written examination has been published. Download and verify your answers.",
+    "downloadLink": "#",
+    "objectionLink": "#",
+    "examDate": "27-11-2023 to 15-12-2023",
+    "objectionDeadline": "15-12-2023",
+    "objectionFee": "₹100 per question"
+  },
+  {
+    "id": 6,
+    "examName": "IBPS PO Answer Key 2023",
+    "department": "IBPS",
+    "publishDate": "30-11-2023",
+    "status": "Active",
+    "description": "Official answer key for IBPS PO Mains examination 2023. Candidates can check their responses and download the answer key.",
+    "downloadLink": "#",
+    "objectionLink": "#",
+    "examDate": "25-11-2023",
+    "objectionDeadline": "10-12-2023",
+    "objectionFee": "₹100 per question"
+  }
+]

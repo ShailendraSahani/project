@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "examName": "SSC MTS Admit Card 2024",
+    "department": "Staff Selection Commission",
+    "examDate": "15-03-2024 to 28-03-2024",
+    "status": "New",
+    "description": "Download admit card for SSC MTS examination 2024. The exam will be conducted in computer-based test mode.",
+    "downloadLink": "#",
+    "instructionsLink": "#",
+    "releaseDate": "01-03-2024",
+    "examMode": "Computer Based Test"
+  },
+  {
+    "id": 2,
+    "examName": "RRB Group D Admit Card 2024",
+    "department": "Railway Recruitment Board",
+    "examDate": "20-03-2024 to 10-04-2024",
+    "status": "Active",
+    "description": "Download admit card for RRB Group D CBT examination. Candidates must carry valid photo ID proof to the exam center.",
+    "downloadLink": "#",
+    "instructionsLink": "#",
+    "releaseDate": "05-03-2024",
+    "examMode": "Computer Based Test"
+  },
+  {
+    "id": 3,
+    "examName": "IBPS PO Prelims Admit Card 2024",
+    "department": "IBPS",
+    "examDate": "19-10-2024 to 20-10-2024",
+    "status": "Active",
+    "description": "Download admit card for IBPS PO Prelims examination. The exam will be held in online mode across multiple sessions.",
+    "downloadLink": "#",
+    "instructionsLink": "#",
+    "releaseDate": "10-10-2024",
+    "examMode": "Online"
+  },
+  {
+    "id": 4,
+    "examName": "UPSC Civil Services Prelims Admit Card 2024",
+    "department": "UPSC",
+    "examDate": "09-06-2024",
+    "status": "Active",
+    "description": "Download admit card for UPSC Civil Services Preliminary examination. Exam will be conducted in pen and paper mode.",
+    "downloadLink": "#",
+    "instructionsLink": "#",
+    "releaseDate": "22-05-2024",
+    "examMode": "Pen and Paper"
+  },
+  {
+    "id": 5,
+    "examName": "Delhi Police Constable Physical Test Admit Card 2024",
+    "department": "Delhi Police",
+    "examDate": "25-04-2024 to 15-05-2024",
+    "status": "New",
+    "description": "Download admit card for Delhi Police Constable Physical Efficiency Test. Candidates must report at designated venue on time.",
+    "downloadLink": "#",
+    "instructionsLink": "#",
+    "releaseDate": "15-04-2024",
+    "examMode": "Physical Test"
+  },
+  {
+    "id": 6,
+    "examName": "SSC CGL Tier-2 Admit Card 2024",
+    "department": "Staff Selection Commission",
+    "examDate": "18-07-2024 to 20-07-2024",
+    "status": "Active",
+    "description": "Download admit card for SSC CGL Tier-2 examination. The exam will be conducted in computer-based test mode.",
+    "downloadLink": "#",
+    "instructionsLink": "#",
+    "releaseDate": "10-07-2024",
+    "examMode": "Computer Based Test"
+  }
+]
