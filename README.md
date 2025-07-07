@@ -246,8 +246,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🆘 Support
 
 For support and questions:
-- Email: info@sarkariresults.com
-- Phone: +91 9876543210
+- Email: shailendrasahani273209@gmail.com
+- Phone: +917388711487
 
 ## 🙏 Acknowledgments
 
