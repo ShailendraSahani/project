@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "SSC MTS 2024 notification released - Apply for 9621 posts",
+    "date": "25-01-2024",
+    "category": "Job Notification",
+    "priority": "high",
+    "description": "Staff Selection Commission has released notification for Multi Tasking Staff recruitment 2024.",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "RRB Group D result declared - Check your result now",
+    "date": "24-01-2024",
+    "category": "Result",
+    "priority": "high",
+    "description": "Railway Recruitment Board has announced Group D CBT examination result.",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "IBPS PO interview schedule announced for January 2024",
+    "date": "23-01-2024",
+    "category": "Interview",
+    "priority": "medium",
+    "description": "IBPS has released interview schedule for Probationary Officer recruitment.",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "UPSC Civil Services final result published - 933 candidates recommended",
+    "date": "22-01-2024",
+    "category": "Result",
+    "priority": "high",
+    "description": "Union Public Service Commission has declared Civil Services Examination 2022 final result.",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "Delhi Police Constable admit card released - Download now",
+    "date": "21-01-2024",
+    "category": "Admit Card",
+    "priority": "medium",
+    "description": "Delhi Police has released admit card for Constable recruitment examination.",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "SSC CHSL answer key objection window opens till 05-01-2024",
+    "date": "20-01-2024",
+    "category": "Answer Key",
+    "priority": "medium",
+    "description": "Staff Selection Commission has opened objection window for CHSL Tier-1 answer key.",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "title": "Indian Army Territorial Army Officer recruitment 2024 notification out",
+    "date": "19-01-2024",
+    "category": "Job Notification",
+    "priority": "medium",
+    "description": "Indian Army has released notification for Territorial Army Officer recruitment.",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "title": "IBPS Clerk Mains admit card expected to release soon",
+    "date": "18-01-2024",
+    "category": "Admit Card",
+    "priority": "low",
+    "description": "IBPS is expected to release Clerk Mains examination admit card soon.",
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "title": "UP TGT/PGT 2024 recruitment notification - 51158 posts available",
+    "date": "17-01-2024",
+    "category": "Job Notification",
+    "priority": "high",
+    "description": "Uttar Pradesh Teachers Recruitment Board has announced TGT/PGT recruitment.",
+    "link": "#"
+  },
+  {
+    "id": 10,
+    "title": "SBI Clerk 2024 registration begins - Apply for 8773 posts",
+    "date": "16-01-2024",
+    "category": "Job Notification",
+    "priority": "medium",
+    "description": "State Bank of India has started online registration for Clerk recruitment.",
+    "link": "#"
+  }
+]
